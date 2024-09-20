@@ -1,0 +1,157 @@
+body{
+    display: flex;
+    align-self: center;
+    align-content: center;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+.red-rose-font {
+  font-family: "Red Rose", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.principal{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 520px;
+    height: 130px;
+    margin-left: 165px;
+    margin-top: 160px;
+}
+
+.title {
+    color: #091133;
+    font-family: "Red Rose", serif;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.context{
+
+    color:#6F7CB2;;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: justified;
+
+}
+
+.btn{
+    top: 5px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    flex-flow: row nowrap;
+    text-align: center;
+    margin: 14px;
+    margin-top: 52px;
+}
+
+.btndark{
+    width: 190px;
+    height: 36px;
+    color:#ffffff;
+    background: #111B47;
+    border: 1px solid #091133 
+}
+
+.btnwhite{
+    width: 190px;
+    height: 36px;
+    color: #091133;
+    background: #ffffff;
+    border: 1px solid #091133
+}
+
+.btn :hover{
+    color: #6F7CB2;
+    cursor: pointer;
+    border: 2px solid #6F7CB2
+}
+
+.phoneimg{
+    width: 492px;
+    margin-left: 98px;
+}
